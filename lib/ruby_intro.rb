@@ -3,28 +3,26 @@
 # Part 1
 
 def sum arr
-  suma=0
-  i=0
   if arr.empty?
     return 0
   else
-    arr.each do |i|
-      suma=suma+i;
+    arr.each do |bo|
+      sumar=sumar+bo;
     end
-    return suma
+    return sumar
   end
 end
 
 def max_2_sum arr
-  re=0
+  pri=0
   if arr.empty?
     return 0
   elsif arr.length==1
     return arr.pop
   else
     arr.sort!
-    re=arr.pop+arr.pop
-    return re
+    pri=arr.pop+arr.pop
+    return pri
   end
 end
 
