@@ -43,11 +43,10 @@ def sum_to_n? arr, n
   end
   return false    
 end
-
 # Part 2
 
 def hello(name)
-  # YOUR CODE HERE
+  "Hello,#{name}"
 end
 
 def starts_with_consonant? s
